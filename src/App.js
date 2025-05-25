@@ -22,7 +22,7 @@ function App() {
   const handleAddAlien = async () => {
     try {
       const response = await fetch(
-        "https://l3wnk8vf66.execute-api.ap-south-2.amazonaws.com/prod/aliens",
+        "https://krsq2u4k20.execute-api.ap-south-2.amazonaws.com/prod/aliens",
         {
           method: "POST",
           headers: {
