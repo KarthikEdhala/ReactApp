@@ -10,7 +10,7 @@ function App() {
   const handleAliens = async () => {
     try {
       const response = await fetch(
-        "https://l3wnk8vf66.execute-api.ap-south-2.amazonaws.com/prod/aliens"
+        "https://kc3230l2tb.execute-api.ap-south-2.amazonaws.com/prod/aliens"
       );
       const data = await response.json();
       setAliens(data);
